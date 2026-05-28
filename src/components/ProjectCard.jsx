@@ -88,12 +88,12 @@ export default function ProjectCard({project, variant = 'compact'}){
       <span className="absolute -right-16 -top-20 h-36 w-36 rounded-full bg-brand-4/10 blur-3xl transition group-hover:bg-brand-4/16" aria-hidden="true" />
       <div>
         {project.image && (
-          <div className="relative mb-5 flex min-h-[5.75rem] items-center justify-between gap-4 rounded-lg border border-white/10 bg-dark-bg/35 px-4 py-3">
+          <div className="relative mb-5 flex min-h-[5.75rem] flex-col items-start justify-between gap-3 rounded-lg border border-white/10 bg-dark-bg/35 px-4 py-3 sm:flex-row sm:items-center sm:gap-4">
             {isLogoImage ? (
               <img
                 src={image}
                 alt={imageAlt}
-                className="max-h-16 max-w-[10.5rem] rounded-md bg-white px-3 py-2 object-contain shadow-[0_10px_24px_rgba(0,0,0,0.16)]"
+                className="max-h-16 max-w-full rounded-md bg-white px-3 py-2 object-contain shadow-[0_10px_24px_rgba(0,0,0,0.16)] sm:max-w-[10.5rem]"
                 loading="lazy"
               />
             ) : (
@@ -104,7 +104,7 @@ export default function ProjectCard({project, variant = 'compact'}){
                 loading="lazy"
               />
             )}
-            <div className="flex shrink-0 flex-col items-end gap-2 text-right text-xs font-semibold">
+            <div className="flex shrink-0 flex-col items-start gap-2 text-left text-xs font-semibold sm:items-end sm:text-right">
               {project.status && <span className="rounded-md border border-brand-4/25 bg-brand-4/10 px-2 py-1 text-brand-4">{project.status}</span>}
             </div>
           </div>
@@ -117,7 +117,7 @@ export default function ProjectCard({project, variant = 'compact'}){
         </div>
       </div>
       {(project.demo || project.repo) && (
-        <div className="mt-5 flex gap-2">
+        <div className="mt-5 flex flex-wrap gap-2">
           {project.demo && <a href={project.demo} target="_blank" rel="noreferrer" aria-label={`${project.title} live demo`} className="btn btn-primary min-h-10 px-3 py-2 text-sm font-semibold">Live Demo</a>}
           {project.repo && <a href={project.repo} target="_blank" rel="noreferrer" aria-label={`${project.title} repository`} className="btn btn-secondary min-h-10 px-3 py-2 text-sm font-semibold">GitHub</a>}
         </div>

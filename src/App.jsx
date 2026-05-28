@@ -23,7 +23,7 @@ export default function App(){
           obs.unobserve(entry.target)
         }
       })
-    }, { threshold: 0.2 })
+    }, { rootMargin: '0px 0px -12% 0px', threshold: 0.02 })
 
     revealElements.forEach(el => observer.observe(el))
     return () => observer.disconnect()
