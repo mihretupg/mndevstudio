@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 220" role="img" aria-labelledby="title desc">
+  <title id="title">AutoCAD Structural Automation logo</title>
+  <desc id="desc">Technical wordmark for an AutoCAD structural automation project.</desc>
+  <defs>
+    <linearGradient id="steel" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#132F35"/>
+      <stop offset="1" stop-color="#0D3A3E"/>
+    </linearGradient>
+  </defs>
+  <rect width="560" height="220" rx="18" fill="#FFFFFF"/>
+  <rect x="34" y="42" width="124" height="136" rx="18" fill="url(#steel)"/>
+  <path d="M78 156h-20l32-90h18l32 90h-20l-6-18H84l-6 18Zm12-35h18l-9-29-9 29Z" fill="#CCFF00"/>
+  <path d="M58 167h80" stroke="#CCFF00" stroke-width="8" stroke-linecap="round"/>
+  <text x="184" y="104" fill="#0D3A3E" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="38" font-weight="800">AutoCAD</text>
+  <text x="184" y="145" fill="#0D3A3E" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="30" font-weight="800">Structural</text>
+  <text x="184" y="176" fill="#4D6669" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Automation</text>
+</svg>

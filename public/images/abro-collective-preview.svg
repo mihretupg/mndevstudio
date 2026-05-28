@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Abro Collective</title>
+  <desc id="desc">Warm retail website preview for Abro Collective with handmade gifts, fashion, art, and body products.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fffaf4"/>
+      <stop offset="0.55" stop-color="#f7efe4"/>
+      <stop offset="1" stop-color="#ead9c7"/>
+    </linearGradient>
+    <linearGradient id="clay" x1="0" x2="1">
+      <stop offset="0" stop-color="#f05a28"/>
+      <stop offset="1" stop-color="#7a2d1d"/>
+    </linearGradient>
+    <radialGradient id="warmLight" cx="78%" cy="22%" r="58%">
+      <stop offset="0" stop-color="#f47b20" stop-opacity="0.2"/>
+      <stop offset="0.42" stop-color="#147d75" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#paper)"/>
+  <rect width="1600" height="1000" fill="url(#warmLight)"/>
+  <path d="M0 710c190-78 405-109 626-92 307 24 548-2 974-168v550H0V710Z" fill="#7a2d1d" fill-opacity="0.08"/>
+  <path d="M1000 142c118 44 216 116 294 218 85 111 135 234 151 368-146 36-304 39-474 9-167-30-303-84-407-163 25-140 79-249 162-328 72-69 164-104 274-104Z" fill="#ffffff" fill-opacity="0.6"/>
+
+  <g transform="translate(132 110)">
+    <rect width="334" height="112" rx="10" fill="#ffffff" fill-opacity="0.72" stroke="#7a2d1d" stroke-opacity="0.16"/>
+    <g transform="translate(25 20)">
+      <circle cx="36" cy="36" r="34" fill="#f47b20"/>
+      <circle cx="36" cy="36" r="27" fill="none" stroke="#ffffff" stroke-width="5"/>
+      <path d="M36 4v64M4 36h64M12 14l48 44M60 14 12 58" stroke="#147d75" stroke-width="7" stroke-linecap="round"/>
+      <circle cx="36" cy="36" r="13" fill="#fffaf4" stroke="#7a2d1d" stroke-width="5"/>
+      <circle cx="36" cy="36" r="4" fill="#f05a28"/>
+    </g>
+    <text x="102" y="69" fill="#6d2b20" font-family="Georgia, serif" font-size="70">abro</text>
+    <text x="135" y="94" fill="#9f6a58" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="17" letter-spacing="6">COLLECTIVE</text>
+  </g>
+
+  <g transform="translate(132 328)">
+    <text fill="#6d2b20" font-family="Georgia, serif" font-size="88" font-weight="700">Together-made</text>
+    <text y="104" fill="#f05a28" font-family="Georgia, serif" font-size="88" font-weight="700">gifts and goods</text>
+    <text y="176" fill="#301f1b" fill-opacity="0.78" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="30">A DC collective of artists, makers, and curators at Union Station.</text>
+    <rect y="250" width="250" height="68" rx="34" fill="url(#clay)"/>
+    <text x="45" y="294" fill="#fffaf4" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="24" font-weight="800">Visit Shop</text>
+  </g>
+
+  <g transform="translate(880 238)">
+    <rect width="492" height="486" rx="36" fill="#fffaf4" stroke="#7a2d1d" stroke-opacity="0.18"/>
+    <text x="46" y="70" fill="#f05a28" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="21" font-weight="800" letter-spacing="6">MEET THE BUSINESSES</text>
+    <g transform="translate(46 116)">
+      <rect width="176" height="128" rx="20" fill="#147d75" fill-opacity="0.12"/>
+      <circle cx="56" cy="52" r="30" fill="#147d75"/>
+      <path d="M27 93h118" stroke="#147d75" stroke-width="9" stroke-linecap="round"/>
+      <text x="0" y="168" fill="#6d2b20" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="21" font-weight="700">Artwork</text>
+    </g>
+    <g transform="translate(270 116)">
+      <rect width="176" height="128" rx="20" fill="#f47b20" fill-opacity="0.12"/>
+      <path d="M54 29c34 24 59 24 93 0v62c-34 25-59 25-93 0V29Z" fill="#f47b20"/>
+      <text x="0" y="168" fill="#6d2b20" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="21" font-weight="700">Streetwear</text>
+    </g>
+    <g transform="translate(46 318)">
+      <rect width="176" height="92" rx="20" fill="#7a2d1d" fill-opacity="0.1"/>
+      <path d="M48 26h80v44H48z" fill="#7a2d1d"/>
+      <path d="M64 26c0-18 48-18 48 0" fill="none" stroke="#7a2d1d" stroke-width="9" stroke-linecap="round"/>
+      <text x="0" y="136" fill="#6d2b20" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="21" font-weight="700">Gifts</text>
+    </g>
+    <g transform="translate(270 318)">
+      <rect width="176" height="92" rx="20" fill="#147d75" fill-opacity="0.12"/>
+      <path d="M56 32h72v48H56z" fill="#147d75"/>
+      <path d="M92 16v22" stroke="#f05a28" stroke-width="8" stroke-linecap="round"/>
+      <text x="0" y="136" fill="#6d2b20" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="21" font-weight="700">Candles</text>
+    </g>
+  </g>
+</svg>

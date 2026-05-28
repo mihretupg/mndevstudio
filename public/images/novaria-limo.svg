@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Novaria Limo</title>
+  <desc id="desc">Dark luxury transport website preview with gold Novaria Limo branding.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#050505"/>
+      <stop offset="0.54" stop-color="#15120d"/>
+      <stop offset="1" stop-color="#2b2419"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#f6c15a"/>
+      <stop offset="1" stop-color="#f5a30f"/>
+    </linearGradient>
+    <radialGradient id="light" cx="78%" cy="18%" r="52%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.2"/>
+      <stop offset="0.45" stop-color="#f5a30f" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect width="1600" height="1000" fill="url(#light)"/>
+  <path fill="#ffffff" fill-opacity="0.08" d="M0 704c210-84 466-132 720-116 267 18 522-3 880-162v574H0V704Z"/>
+  <path fill="#ffffff" fill-opacity="0.12" d="M745 585c137-35 323-68 528-58 60 3 123 11 190 24-92 72-234 145-431 182-149 28-323 18-474-24 33-56 96-101 187-124Z"/>
+  <path fill="none" stroke="#ffffff" stroke-opacity="0.22" stroke-width="22" d="M608 713c204 78 514 89 796-50"/>
+  <path fill="none" stroke="#f5a30f" stroke-opacity="0.45" stroke-width="7" d="M619 714c202 70 499 76 759-48"/>
+  <g transform="translate(150 130)">
+    <rect x="0" y="0" width="205" height="84" rx="8" fill="#090909" fill-opacity="0.72" stroke="#f5a30f" stroke-opacity="0.35"/>
+    <rect x="18" y="15" width="48" height="54" rx="7" fill="url(#gold)"/>
+    <text x="31" y="56" fill="#090909" font-family="Georgia, serif" font-size="43" font-weight="700">N</text>
+    <text x="82" y="38" fill="#ffffff" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="24" font-weight="800" letter-spacing="3">NOVARIA</text>
+    <text x="99" y="66" fill="#f5a30f" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="19" font-weight="700" letter-spacing="10">LIMO</text>
+  </g>
+  <g transform="translate(150 318)">
+    <text fill="#ffffff" font-family="Georgia, serif" font-size="92" font-weight="700">Ride in Luxury,</text>
+    <text y="106" fill="#f5b016" font-family="Georgia, serif" font-size="92" font-weight="700">Arrive in Style</text>
+    <text y="178" fill="#d8d8d8" fill-opacity="0.78" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="31">Professional limo service across Dallas and the DFW metroplex.</text>
+    <rect y="248" width="265" height="70" rx="35" fill="url(#gold)"/>
+    <text x="43" y="293" fill="#050505" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="25" font-weight="800">Book Now</text>
+  </g>
+  <g transform="translate(1010 254)">
+    <rect width="420" height="390" rx="34" fill="#090909" fill-opacity="0.54" stroke="#f5a30f" stroke-opacity="0.35"/>
+    <text x="46" y="72" fill="#f5a30f" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="22" font-weight="800" letter-spacing="7">LUXURY SERVICE</text>
+    <g fill="#ffffff" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="25" font-weight="700">
+      <text x="46" y="142">Executive Class</text>
+      <text x="46" y="216">Airport Pickup</text>
+      <text x="46" y="290">Special Events</text>
+    </g>
+    <g fill="#d8d8d8" fill-opacity="0.62" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="18">
+      <text x="46" y="169">Premium fleet</text>
+      <text x="46" y="243">DFW and Love Field</text>
+      <text x="46" y="317">Weddings and corporate rides</text>
+    </g>
+  </g>
+</svg>

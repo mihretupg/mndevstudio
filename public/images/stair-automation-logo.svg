@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 220" role="img" aria-labelledby="title desc">
+  <title id="title">Stair Automation logo</title>
+  <desc id="desc">Technical wordmark for a civil engineering stair automation tool.</desc>
+  <defs>
+    <linearGradient id="structure" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0D3A3E"/>
+      <stop offset="1" stop-color="#245E63"/>
+    </linearGradient>
+  </defs>
+  <rect width="560" height="220" rx="18" fill="#FFFFFF"/>
+  <rect x="34" y="42" width="124" height="136" rx="18" fill="url(#structure)"/>
+  <path d="M62 150h27v-24h27v-24h28" fill="none" stroke="#CCFF00" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M62 166h82" stroke="#CCFF00" stroke-width="8" stroke-linecap="round"/>
+  <text x="184" y="109" fill="#0D3A3E" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="38" font-weight="800">Stair</text>
+  <text x="184" y="151" fill="#0D3A3E" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="34" font-weight="800">Automation</text>
+  <text x="186" y="181" fill="#4D6669" font-family="Poppins, Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="3">CIVIL ENGINEERING TOOL</text>
+</svg>
