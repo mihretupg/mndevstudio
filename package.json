@@ -4,6 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "npx vite",
+    "backend:install": "python -m venv backend/.venv && backend\\.venv\\Scripts\\python -m pip install -r backend\\requirements.txt",
+    "backend": "node backend/run_backend.js",
+    "backend:test": "node backend/test_backend.js",
     "build": "npx vite build",
     "preview": "npx vite preview",
     "sanitize": "node scripts/sanitize.js"

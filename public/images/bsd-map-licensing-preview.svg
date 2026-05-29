@@ -1,0 +1,120 @@
+<svg width="960" height="600" viewBox="0 0 960 600" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">BSD Engineering map-based licensing system preview</title>
+  <desc id="desc">A satellite map interface with property overlays, license status filters, and BSD Engineering dashboard controls.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="960" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#233F3C"/>
+      <stop offset="0.45" stop-color="#55715F"/>
+      <stop offset="1" stop-color="#1D302E"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="765" y1="80" x2="940" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F1F5F4"/>
+    </linearGradient>
+    <pattern id="fieldLines" width="64" height="64" patternUnits="userSpaceOnUse" patternTransform="rotate(18)">
+      <path d="M0 12H64M0 36H64M0 60H64" stroke="#D8C890" stroke-width="5" stroke-opacity="0.45"/>
+    </pattern>
+    <pattern id="licenseHatch" width="22" height="22" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+      <path d="M0 0V22" stroke="#1CA4C8" stroke-width="5" stroke-opacity="0.75"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#0B1514" flood-opacity="0.26"/>
+    </filter>
+  </defs>
+
+  <rect width="960" height="600" rx="28" fill="#F7F8F5"/>
+  <rect x="18" y="18" width="924" height="564" rx="22" fill="#101817"/>
+  <rect x="18" y="18" width="924" height="58" rx="22" fill="#FAFBFA"/>
+  <path d="M18 56H942V86H18V56Z" fill="#FAFBFA"/>
+
+  <g transform="translate(40 31)">
+    <circle cx="8" cy="8" r="4" fill="#16363B"/>
+    <circle cx="21" cy="5" r="4" fill="#557E92"/>
+    <circle cx="28" cy="17" r="4" fill="#B9CBD1"/>
+    <circle cx="14" cy="22" r="4" fill="#839BA9"/>
+    <text x="46" y="19" fill="#1F2928" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">BSD Design &amp; Management</text>
+  </g>
+  <g transform="translate(792 34)" fill="#596361" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">
+    <text x="0" y="14">EN</text>
+    <circle cx="74" cy="9" r="16" fill="#7C3AED"/>
+    <text x="70" y="14" fill="#FFFFFF">E</text>
+  </g>
+
+  <g transform="translate(18 76)">
+    <rect width="744" height="506" fill="url(#sky)"/>
+    <path d="M0 84C98 58 178 64 260 108C348 156 416 126 484 82C576 22 648 30 744 54V506H0V84Z" fill="#314C37"/>
+    <path d="M0 330C90 302 182 318 276 342C382 370 490 354 590 300C646 270 696 262 744 270V506H0V330Z" fill="#203B32"/>
+    <path d="M-20 162C92 140 176 142 268 180C398 234 526 190 610 152C664 128 704 120 764 128" stroke="#D9C69B" stroke-width="12" stroke-opacity="0.58"/>
+    <path d="M26 446C112 390 174 348 254 310C354 262 438 256 544 270C626 282 682 252 750 222" stroke="#C7B995" stroke-width="10" stroke-opacity="0.5"/>
+    <path d="M0 106H744V506H0V106Z" fill="url(#fieldLines)" opacity="0.42"/>
+
+    <path d="M251 160L425 130L492 176L503 306L444 412L302 445L210 394L170 298L196 206L251 160Z" fill="#E8F3EB" fill-opacity="0.62" stroke="#1177C7" stroke-width="5"/>
+    <path d="M251 160L425 130L492 176L503 306L444 412L302 445L210 394L170 298L196 206L251 160Z" fill="url(#licenseHatch)" opacity="0.7"/>
+    <path d="M240 226C290 178 380 172 432 230C482 287 460 363 400 398C334 437 242 414 210 346C190 304 203 260 240 226Z" fill="#BDF243" fill-opacity="0.75" stroke="#2B7FDD" stroke-width="4"/>
+    <path d="M296 210L382 198L432 256L412 348L330 382L262 342L244 268L296 210Z" fill="#56C06B" fill-opacity="0.72" stroke="#118D54" stroke-width="3"/>
+    <path d="M348 218L414 280L382 370L308 350L310 250L348 218Z" fill="#F5C84B" fill-opacity="0.72" stroke="#D69A00" stroke-width="3"/>
+    <path d="M402 236L440 296L416 344L374 318L382 260L402 236Z" fill="#B339D2" fill-opacity="0.72"/>
+    <path d="M202 372H430" stroke="#E83A52" stroke-width="3" stroke-opacity="0.9"/>
+    <path d="M272 184V402" stroke="#E83A52" stroke-width="3" stroke-opacity="0.82"/>
+    <path d="M202 304H468" stroke="#E83A52" stroke-width="3" stroke-opacity="0.7"/>
+    <circle cx="188" cy="374" r="10" fill="#FFFFFF" stroke="#1A7DCE" stroke-width="5"/>
+    <circle cx="450" cy="394" r="10" fill="#FFFFFF" stroke="#29B8A3" stroke-width="5"/>
+
+    <g filter="url(#shadow)">
+      <rect x="706" y="14" width="28" height="72" rx="6" fill="#FFFFFF"/>
+      <path d="M720 28V48M710 38H730" stroke="#141A19" stroke-width="3"/>
+      <path d="M711 62H729" stroke="#141A19" stroke-width="3"/>
+      <rect x="706" y="104" width="28" height="28" rx="6" fill="#FFFFFF"/>
+      <path d="M714 116L720 113L727 116L720 119L714 116Z" fill="#77807E"/>
+      <path d="M714 122L720 125L727 122" stroke="#77807E" stroke-width="2"/>
+    </g>
+  </g>
+
+  <g transform="translate(762 76)">
+    <rect width="180" height="506" fill="url(#panel)"/>
+    <text x="22" y="35" fill="#161D1C" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">Properties</text>
+    <rect x="22" y="58" width="136" height="36" rx="14" fill="#FFFFFF" stroke="#E3E7E5"/>
+    <circle cx="40" cy="76" r="6" stroke="#A4ABA9" stroke-width="3"/>
+    <path d="M45 81L51 87" stroke="#A4ABA9" stroke-width="3" stroke-linecap="round"/>
+    <text x="61" y="81" fill="#A0A8A6" font-family="Inter, Arial, sans-serif" font-size="11">Search properties...</text>
+
+    <text x="22" y="130" fill="#9AA09E" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="800" letter-spacing="2">ACTIONS</text>
+    <rect x="22" y="146" width="136" height="45" rx="12" fill="#7C3AED"/>
+    <path d="M90 158V179M80 168H101" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+    <text x="108" y="173" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800">Add</text>
+
+    <g fill="#FFFFFF" stroke="#E8ECEA">
+      <rect x="22" y="204" width="64" height="36" rx="10"/>
+      <rect x="94" y="204" width="64" height="36" rx="10"/>
+      <rect x="22" y="248" width="64" height="36" rx="10"/>
+      <rect x="94" y="248" width="64" height="36" rx="10"/>
+    </g>
+    <g fill="#6F7775" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="800">
+      <text x="43" y="227">Trace</text>
+      <text x="113" y="227">Cities</text>
+      <text x="42" y="271">Layers</text>
+      <text x="117" y="271">Full</text>
+    </g>
+
+    <text x="22" y="335" fill="#9AA09E" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="800" letter-spacing="2">LICENSE STATUS</text>
+    <g font-family="Inter, Arial, sans-serif" font-size="11" font-weight="800">
+      <rect x="22" y="351" width="136" height="37" rx="11" fill="#ECFBF6" stroke="#1FBF9E" stroke-width="3"/>
+      <circle cx="42" cy="370" r="5" fill="#1FBF9E"/>
+      <text x="58" y="374" fill="#16201F">Approved</text>
+      <rect x="142" y="364" width="11" height="11" fill="#111111"/>
+      <path d="M144 369L147 372L152 366" stroke="#FFFFFF" stroke-width="2"/>
+
+      <rect x="22" y="402" width="136" height="37" rx="11" fill="#EEF4FF" stroke="#3B82F6" stroke-width="3"/>
+      <circle cx="42" cy="421" r="5" fill="#3B82F6"/>
+      <text x="58" y="425" fill="#16201F">Pending</text>
+      <rect x="142" y="415" width="11" height="11" fill="#111111"/>
+      <path d="M144 420L147 423L152 417" stroke="#FFFFFF" stroke-width="2"/>
+
+      <rect x="22" y="453" width="136" height="37" rx="11" fill="#FFF1F3" stroke="#EF4056" stroke-width="3"/>
+      <circle cx="42" cy="472" r="5" fill="#EF4056"/>
+      <text x="58" y="476" fill="#16201F">No License</text>
+      <rect x="142" y="466" width="11" height="11" fill="#111111"/>
+      <path d="M144 471L147 474L152 468" stroke="#FFFFFF" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

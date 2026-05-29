@@ -34,6 +34,9 @@ const serviceOptions = [
   'Maintenance & Support'
 ]
 
+const projectRequestEmail = 'mihretupg@gmail.com'
+const contactApiUrl = import.meta.env.VITE_CONTACT_API_URL || '/api/contact'
+
 export default function Contact(){
   const [form, setForm] = useState({
     name: '',
@@ -42,13 +45,43 @@ export default function Contact(){
     service: '',
     message: ''
   })
+  const [status, setStatus] = useState('idle')
+  const [feedback, setFeedback] = useState('')
 
   const handleChange = e => setForm({...form, [e.target.name]: e.target.value})
 
-  const handleSubmit = e => {
+  const handleSubmit = async e => {
     e.preventDefault()
-    // TODO: Connect this project request form to the backend or email delivery service.
-    alert('Thanks! Your project request has been received.')
+    setStatus('submitting')
+    setFeedback('')
+
+    try {
+      const response = await fetch(contactApiUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json'
+        },
+        body: JSON.stringify(form)
+      })
+
+      if (!response.ok) {
+        throw new Error('Request failed')
+      }
+
+      setForm({
+        name: '',
+        email: '',
+        company: '',
+        service: '',
+        message: ''
+      })
+      setStatus('success')
+      setFeedback('Thanks! Your project request has been received.')
+    } catch (error) {
+      setStatus('error')
+      setFeedback(`Sorry, we could not send your request. Please email us directly at ${projectRequestEmail}.`)
+    }
   }
 
   const fieldClasses = 'mt-2 w-full rounded-xl bg-white/10 border border-brand-4/25 px-4 py-3 text-white placeholder-gray-400 shadow-inner outline-none transition focus:border-brand-4 focus:ring-2 focus:ring-brand-4/30'
@@ -160,8 +193,14 @@ export default function Contact(){
             </label>
           </div>
 
-          <button type="submit" className="btn btn-primary mt-6 w-full px-6 py-3 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 transition">
-            Send Project Request
+          {feedback ? (
+            <p className={`mt-5 text-sm ${status === 'error' ? 'text-red-200' : 'text-green-200'}`} role="status">
+              {feedback}
+            </p>
+          ) : null}
+
+          <button type="submit" disabled={status === 'submitting'} className="btn btn-primary mt-6 w-full px-6 py-3 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 transition disabled:cursor-not-allowed disabled:opacity-70">
+            {status === 'submitting' ? 'Sending...' : 'Send Project Request'}
           </button>
         </form>
       </div>

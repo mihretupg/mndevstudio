@@ -3,6 +3,21 @@ import ProjectCard from './ProjectCard'
 
 const items = [
   {
+    title: 'Map-Based Licensing System',
+    category: 'BSD Engineering GIS licensing platform',
+    type: 'Web app',
+    year: '2026',
+    status: 'Built for BSD Engineering',
+    desc: 'A map-based licensing system developed for BSD Engineering to manage property boundaries, visualize licensing coverage, and filter approved, pending, and unlicensed areas from a single GIS-style dashboard.',
+    short: 'A GIS licensing dashboard for BSD Engineering with property overlays, boundary tracing, and license status filters.',
+    tech: ['GIS Dashboard', 'Map Overlays', 'License Workflow', 'Property Boundaries', 'Status Filters'],
+    platforms: ['Satellite map workspace', 'Property boundary tracing', 'License status controls', 'Submissions workflow'],
+    impact: ['Clear license coverage visibility', 'Faster property review workflow'],
+    image: '/images/bsd-map-licensing-preview.svg',
+    imageAlt: 'BSD Engineering map-based licensing system dashboard preview',
+    repo: 'https://github.com/natiD1/map'
+  },
+  {
     title: 'Lakun',
     category: 'Hyperlocal delivery platform',
     type: 'Web and Mobile App',
