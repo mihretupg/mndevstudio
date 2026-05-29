@@ -6,6 +6,7 @@ const iconBase = 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons'
 const skills = [
   {label: 'JavaScript', icons: [`${iconBase}/javascript/javascript-original.svg`]},
   {label: 'React', icons: [`${iconBase}/react/react-original.svg`]},
+  {label: 'Flutter', icons: [`${iconBase}/flutter/flutter-original.svg`]},
   {label: 'Tailwind CSS', icons: [`${iconBase}/tailwindcss/tailwindcss-original.svg`]},
   {label: 'Node.js', icons: [`${iconBase}/nodejs/nodejs-original.svg`]},
   {label: 'PHP', icons: [`${iconBase}/php/php-original.svg`]},
