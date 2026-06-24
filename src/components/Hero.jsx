@@ -23,7 +23,7 @@ export default function Hero(){
   return (
     <div className="relative grid grid-cols-1 md:grid-cols-2 gap-8 items-center badtz-fade-slide py-16 overflow-hidden">
       <div className="hero-particle-layer" aria-hidden="true">
-        {heroParticles.map(particle => (
+        {heroParticles.map(particle => (  
           <span
             key={particle.label}
             className="hero-tech-particle"
@@ -36,12 +36,12 @@ export default function Hero(){
       </div>
 
       <div className="relative z-10">
-        <p className="text-sm uppercase tracking-[0.35em] text-brand-4 font-semibold">Freelance technical studio</p>
-        <h1 className="text-5xl md:text-7xl font-bold leading-tight text-white mt-4">MN Dev <span className="text-brand-4">Studio</span></h1>
-        <p className="mt-6 text-gray-300 max-w-xl leading-relaxed">A two-person freelance software studio delivering polished web applications, APIs, and digital experiences with thoughtful frontend design and reliable backend architecture. Available for remote development and collaboration worldwide.</p>
+        <p className="text-sm uppercase tracking-[0.35em] text-brand-4 font-semibold">IT project coordinator & frontend developer</p>
+        <h1 className="text-5xl md:text-7xl font-bold leading-tight text-white mt-4">Mihretu <span className="text-brand-4">Petros</span></h1>
+        <p className="mt-6 text-gray-300 max-w-xl leading-relaxed">Experienced in frontend engineering and IT project coordination, building responsive React and Tailwind CSS web applications while supporting Agile/Scrum delivery, sprint planning, backlog management, stakeholder communication, documentation, reporting, and timely handoff of reliable digital solutions.</p>
         <div className="mt-8 flex gap-4 flex-wrap">
           <a href={projectLink.path} onClick={event => navigateToSection(event, projectLink)} aria-label="View Projects" className="btn btn-primary px-6 py-3 bg-brand-4 text-brand-3 font-semibold rounded-full hover:bg-brand-4/90 hover:shadow-lg shadow-md transition duration-200">View Projects</a>
-          <a href={contactLink.path} onClick={event => navigateToSection(event, contactLink)} aria-label="Contact Us" className="btn btn-secondary px-6 py-3 border-2 border-brand-4 text-brand-4 font-semibold rounded-full hover:bg-brand-4/10 transition duration-200">Contact Us</a>
+          <a href={contactLink.path} onClick={event => navigateToSection(event, contactLink)} aria-label="Contact Mihretu" className="btn btn-secondary px-6 py-3 border-2 border-brand-4 text-brand-4 font-semibold rounded-full hover:bg-brand-4/10 transition duration-200">Let's Talk</a>
         </div>
       </div>
 
@@ -51,10 +51,10 @@ export default function Hero(){
           <pre className="language-js text-sm bg-transparent text-brand-4 overflow-auto rounded font-mono">
 {`  
 function buildAwesome() {
-  return buildStudio()
+  return coordinateProject()
     .withReact()
     .withTailwind()
-    .deployToWorld()
+    .trackDelivery()
 }
 
 buildAwesome()`}

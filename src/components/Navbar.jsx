@@ -14,7 +14,7 @@ export default function Navbar(){
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-3 badtz-pop">
  
-          <div className="font-semibold text-white">MN Dev Studio</div>
+          <div className="font-semibold text-white">Mihretu Petros</div>
         </div>
 
         <nav className="hidden md:flex items-center gap-6 text-sm text-white/80" aria-label="Primary navigation">

@@ -70,34 +70,34 @@ function ServiceIcon({type}){
 
 const services = [
   {
-    title: 'Custom Website Development',
+    title: 'Responsive Website Development',
     icon: 'website',
-    description: 'We build modern, responsive, and professional websites for businesses, personal brands, and organizations.'
+    description: 'Responsive business, personal brand, and service websites built with React, Tailwind CSS, reusable components, and careful implementation of design updates.'
   },
   {
-    title: 'Full-Stack Web Applications',
+    title: 'Frontend Web Applications',
     icon: 'app',
-    description: 'We develop complete web applications with frontend interfaces, backend systems, databases, and secure user features.'
+    description: 'Interactive frontend experiences for dashboards, portals, MVPs, and ecommerce workflows with API-connected views, clean flows, and dependable UI behavior.'
   },
   {
     title: 'UI/UX & Frontend Engineering',
     icon: 'design',
-    description: 'We design and build clean, user-friendly interfaces that work smoothly across desktop, tablet, and mobile devices.'
+    description: 'User interfaces shaped around usability, accessibility, responsive behavior, visual consistency, and smooth experiences across desktop, tablet, and mobile devices.'
   },
   {
-    title: 'Backend APIs & Database Systems',
+    title: 'IT Project Coordination',
     icon: 'backend',
-    description: 'We create secure APIs, authentication systems, dashboards, and database-powered software solutions.'
+    description: 'Agile/Scrum support, sprint planning, backlog management, requirement coordination, stakeholder communication, deliverable tracking, documentation, and reporting.'
   },
   {
-    title: 'E-Commerce & Payment Integration',
+    title: 'E-Commerce Frontend UX',
     icon: 'commerce',
-    description: 'We build online stores, product pages, checkout flows, and integrate payment systems for digital businesses.'
+    description: 'Clean shopping interfaces, product discovery flows, responsive collection pages, and frontend support for ecommerce-related client projects.'
   },
   {
-    title: 'Deployment, Maintenance & Support',
+    title: 'Launch Support & Maintenance',
     icon: 'support',
-    description: 'We help launch, maintain, update, and improve websites and applications after development.'
+    description: 'Launch preparation, UI QA, stakeholder handoffs, content updates, progress tracking, performance checks, and steady improvements after release.'
   }
 ]
 
@@ -105,7 +105,7 @@ export default function Services(){
   return (
     <section>
       <h2 className="section-title text-3xl font-semibold text-white">Services</h2>
-      <p className="mt-3 text-gray-300">What we offer to help your project succeed.</p>
+      <p className="mt-3 text-gray-300">Resume-aligned services across frontend delivery, Agile coordination, and client-ready project handoffs.</p>
       <div className="mt-6 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
         {services.map(service => (
           <article key={service.title} className="p-6 rounded-3xl panel-light border border-brand-4/20 shadow-lg backdrop-blur-sm flex gap-4 items-start badtz-pop">

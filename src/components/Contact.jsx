@@ -12,25 +12,27 @@ function WhatsAppIcon({className = ''}){
 }
 
 const contactDetails = [
-  {label: 'Email', value: 'hello@mndevstudio.com', href: 'mailto:mihretupg@gmail.com'},
+  {label: 'Email', value: 'mihretupg@gmail.com', href: 'mailto:mihretupg@gmail.com'},
   {label: 'Phone', value: '+251941268503 | +251933040155', href: 'tel:+251941268503'},
   {
     label: 'WhatsApp',
-    value: 'Chat with us ',
+    value: 'Chat with Mihretu',
     href: 'https://wa.me/251941268503',
     external: true,
     icon: WhatsAppIcon
   },
-  {label: 'Response time', value: 'We usually respond within 30 minutes'}
+  {label: 'Response time', value: 'Usually responds within 30 minutes'}
 ]
 
 const serviceOptions = [
   'Startup MVP',
   'Business Website',
-  'Custom Software',
-  'UI/UX Design',
-  'Backend API',
-  'E-Commerce',
+  'Frontend Web Application',
+  'React / Tailwind Interface',
+  'IT Project Coordination',
+  'Agile / Scrum Support',
+  'Documentation & Reporting',
+  'E-Commerce Frontend',
   'Maintenance & Support'
 ]
 
@@ -80,7 +82,7 @@ export default function Contact(){
       setFeedback('Thanks! Your project request has been received.')
     } catch (error) {
       setStatus('error')
-      setFeedback(`Sorry, we could not send your request. Please email us directly at ${projectRequestEmail}.`)
+      setFeedback(`Sorry, your request could not be sent. Please email Mihretu directly at ${projectRequestEmail}.`)
     }
   }
 
@@ -91,8 +93,8 @@ export default function Contact(){
       <div className="grid grid-cols-1 lg:grid-cols-[0.9fr_1.1fr] gap-8 lg:gap-10 items-start">
         <div>
           <p className="text-sm uppercase tracking-[0.25em] text-brand-4 font-semibold">Start a project</p>
-          <h2 id="contact-heading" className="section-title mt-3 text-3xl md:text-4xl font-bold text-white leading-tight">Let&rsquo;s Build Your Next Software Project</h2>
-          <p className="mt-5 text-gray-300 leading-relaxed max-w-2xl">Have a project idea, startup MVP, business website, or custom software need? Send us a message and we&rsquo;ll get back to you within 24 hours.</p>
+          <h2 id="contact-heading" className="section-title mt-3 text-3xl md:text-4xl font-bold text-white leading-tight">Let&rsquo;s Build and Coordinate Your Next Digital Project</h2>
+          <p className="mt-5 text-gray-300 leading-relaxed max-w-2xl">Have a website, dashboard, ecommerce experience, startup MVP, frontend task, or IT project coordination need? Send a message and Mihretu will get back to you within 24 hours.</p>
 
           <div className="mt-8 rounded-3xl panel-light border border-brand-4/20 p-6 shadow-lg backdrop-blur-sm">
             <div className="grid gap-5">
@@ -104,7 +106,7 @@ export default function Contact(){
                       href={item.href}
                       target={item.external ? '_blank' : undefined}
                       rel={item.external ? 'noreferrer' : undefined}
-                      aria-label={item.external ? `Message MN Dev Studio on ${item.label}` : undefined}
+                      aria-label={item.external ? `Message Mihretu on ${item.label}` : undefined}
                       className="inline-flex items-center gap-2 text-white hover:text-brand-4 transition focus:outline-none focus:ring-2 focus:ring-brand-4 rounded-sm"
                     >
                       {item.icon ? <item.icon className="h-5 w-5 text-[#25D366]" /> : null}
@@ -187,7 +189,7 @@ export default function Contact(){
                 value={form.message}
                 onChange={handleChange}
                 className={`${fieldClasses} min-h-40 resize-y`}
-                placeholder="Tell us what you want to build, your timeline, and any important goals."
+                placeholder="Tell Mihretu what you want to build or coordinate, your timeline, stakeholders, and important goals."
                 required
               />
             </label>

@@ -1,6 +1,6 @@
-# MN Dev Studio
+# Mihretu Petros Portfolio
 
-A modern, responsive single-page portfolio built with React, Vite, and Tailwind CSS.
+A modern, responsive single-page portfolio for Mihretu Petros, IT Project Coordinator and Frontend Developer. Built with React, Vite, and Tailwind CSS.
 
 ## Quick start
 

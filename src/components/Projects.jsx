@@ -63,7 +63,7 @@ const items = [
     image: '/images/novaria-limo-logo.svg',
     imageAlt: 'Novaria Limo logo',
     imageFit: 'contain',
-    demo: 'https://novaria-sigma.vercel.app/'
+    demo: 'https://novarialimo.com/'
   },
   {
     title: 'Temaribet',
@@ -148,8 +148,8 @@ const filters = ['All', ...Array.from(new Set(items.map(item => item.type)))]
 
 const projectStats = [
   {value: `40+`, label: 'Delivered projects'},
-  {value: 'Web + mobile', label: 'Product coverage'},
-  {value: 'Live', label: 'Launch-ready work'}
+  {value: 'React + Tailwind', label: 'Frontend delivery'},
+  {value: 'Agile/Scrum', label: 'Coordination support'}
 ]
 
 export default function Projects(){
@@ -167,7 +167,7 @@ export default function Projects(){
           <p className="text-sm uppercase tracking-[0.25em] text-brand-4 font-semibold">Delivered work</p>
           <h2 className="section-title mt-3 text-3xl font-semibold text-white">Project Library</h2>
           <p className="mt-4 max-w-3xl text-gray-300 leading-relaxed">
-            A growing collection of product work built for real workflows across websites, mobile apps, dashboards, booking flows, and backend systems.
+            A growing collection of work connected to responsive frontend development, ecommerce and service websites, dashboards, practical workflows, client requirements, and coordinated delivery.
           </p>
         </div>
 

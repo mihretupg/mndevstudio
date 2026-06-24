@@ -2,25 +2,25 @@ import React, {useEffect, useState} from 'react'
 
 const testimonials = [
   {
-    quote: 'MN Dev Studio turned our rough product idea into a polished MVP faster than we expected. The communication was clear, and the final app felt ready for real users.',
+    quote: 'Mihretu helped turn our rough product idea into a polished MVP faster than we expected. The communication was clear, and the final app felt ready for real users.',
     name: 'Wintan Teferi',
     role: 'CEO and Co-founder, Kelem Arts',
     location: 'Washington, DC, USA'
   },
   {
-    quote: 'They understood both the design and technical side of the project. Our new website is faster, cleaner, and much easier for customers to use.',
+    quote: 'Mihretu understood both the design and technical side of the project. Our new website is faster, cleaner, and much easier for customers to use.',
     name: 'Tensae Mekonen',
     role: 'Co-founder, Abro Collective',
     location: 'Washington, DC, USA'
   },
   {
-    quote: 'The team helped us connect our frontend, API, and database into one reliable workflow. It felt like working with a focused in-house product team.',
+    quote: 'Mihretu helped us connect the frontend experience, technical requirements, and delivery workflow. It felt like working with a focused in-house product partner.',
     name: 'Tsegaye T',
     role: 'CEO, Express Brands',
     location: 'Brooklyn, New York, USA'
   },
   {
-    quote: 'MN Dev Studio helped us present Novaria Limo with a premium website that matches our service quality and gives customers a clear path to request a ride.',
+    quote: 'Mihretu helped us present Novaria Limo with a premium website that matches our service quality and gives customers a clear path to request a ride.',
     name: 'David Mirkano',
     role: 'Founder, Novaria Limo',
     location: 'Dallas, TX, USA'
@@ -54,7 +54,7 @@ export default function Testimonials(){
           <p className="text-sm uppercase tracking-[0.25em] text-brand-4 font-semibold">Client feedback</p>
           <h2 id="testimonials-heading" className="section-title mt-3 text-3xl font-semibold text-white">Testimonials</h2>
         </div>
-        <p className="max-w-xl text-gray-300 leading-relaxed">Simple, focused partnerships with teams building websites, MVPs, dashboards, and custom software.</p>
+        <p className="max-w-xl text-gray-300 leading-relaxed">Simple, focused partnerships with teams building websites, MVPs, dashboards, ecommerce experiences, and coordinated IT projects.</p>
       </div>
 
       <div className="mt-8">
