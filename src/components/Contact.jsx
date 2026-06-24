@@ -13,7 +13,7 @@ function WhatsAppIcon({className = ''}){
 
 const contactDetails = [
   {label: 'Email', value: 'mihretupg@gmail.com', href: 'mailto:mihretupg@gmail.com'},
-  {label: 'Phone', value: '+251941268503 | +251933040155', href: 'tel:+251941268503'},
+  {label: 'Phone', value: '+251910497908 | +251941268503', href: 'tel:+251910497908'},
   {
     label: 'WhatsApp',
     value: 'Chat with Mihretu',
